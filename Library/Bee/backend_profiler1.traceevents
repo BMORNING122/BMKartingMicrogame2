@@ -1,0 +1,585 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698543571939632, "dur":1780, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543571941417, "dur":1204, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698543571942671, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698543571942700, "dur":431, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698543571943159, "dur":760, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543571943919, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098494, "dur":289, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098783, "dur":128, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098911, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098917, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098934, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098936, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098944, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098946, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098953, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098955, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098961, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098963, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098970, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098972, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098979, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098982, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098991, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098993, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572098999, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099001, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099008, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099009, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099018, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099022, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099028, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099077, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572099117, "dur":15160, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698543571943589, "dur":337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571943928, "dur":8116, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571952066, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698543571952070, "dur":699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571952774, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698543571952780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571958242, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698543571960698, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1698543571961126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571961131, "dur":9721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1698543571970998, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543571971356, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571971382, "dur":9125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543571980672, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543571980834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571980845, "dur":10969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543571991947, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543571992142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571992163, "dur":5603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543571998011, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543571998133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543571998142, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572004003, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572004074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572004084, "dur":27816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572031985, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572032092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572032104, "dur":13674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572045896, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572046755, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572046768, "dur":12880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572059779, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572060548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572060558, "dur":10887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572071553, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572071664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572071679, "dur":7099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698543572078885, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698543572078986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572079002, "dur":4443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698543572083696, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698543572084189, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572084230, "dur":7030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1698543572091381, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698543572091496, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698543572091513, "dur":6346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698543572097937, "dur":558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571943757, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571943952, "dur":8113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571952066, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698543571952534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571954984, "dur":5095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698543571960203, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698543571960490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571960992, "dur":4740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698543571965875, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543571966062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571968684, "dur":9106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543571977879, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543571977987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571978000, "dur":7872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543571986028, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543571986142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571986151, "dur":8726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543571995026, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543571995148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543571995155, "dur":5725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572001011, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572001168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572001226, "dur":25635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572026997, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572027103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572027112, "dur":11125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572038355, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572038472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572038522, "dur":9946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572048556, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572048782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572048795, "dur":9346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572058244, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572059352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572059361, "dur":11404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572070913, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572071121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572071135, "dur":4892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572076222, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572076575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572076593, "dur":3962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698543572080669, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1698543572080808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572080818, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1698543572085414, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698543572085534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698543572085849, "dur":7999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698543572094058, "dur":4434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543571943845, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543571943969, "dur":8094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543571952067, "dur":702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698543571952775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543571957208, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698543571960642, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543571960826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543571961459, "dur":23700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543571985299, "dur":17432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572002738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572002757, "dur":24229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572027069, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572027223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572027228, "dur":14335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572041664, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572041924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572041931, "dur":9643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572051662, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572051880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572051890, "dur":8904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572060872, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572061002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572061008, "dur":11788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572072870, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572073072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572073079, "dur":6298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698543572079466, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698543572079687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572079698, "dur":8707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1698543572088608, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698543572088747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698543572088765, "dur":5651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698543572094553, "dur":3951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571943650, "dur":282, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571943932, "dur":8128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571952067, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698543571952582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571955479, "dur":4672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698543571960259, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1698543571960481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571960488, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1698543571962799, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1698543571963017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571964779, "dur":15468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1698543571980533, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543571980951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571980962, "dur":8136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543571989342, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543571989669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571989679, "dur":5652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543571995429, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543571995524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543571995537, "dur":5426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572001124, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572001253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572001266, "dur":9026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572010363, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572010443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572010449, "dur":27840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572038405, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572038514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572038525, "dur":10529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572049142, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572049621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572049627, "dur":10149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572059867, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572060030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572060037, "dur":12318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572072822, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572072939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572072951, "dur":4385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572077541, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572077757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572079445, "dur":7514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698543572087091, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698543572087320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698543572087393, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698543572094034, "dur":4451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571943694, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571943938, "dur":8113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571952066, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1698543571952402, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571954856, "dur":5203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1698543571960172, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698543571960510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571960893, "dur":7473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698543571968582, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571968803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571968821, "dur":8830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571977781, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571977903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571977918, "dur":8351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571986355, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571986499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571986509, "dur":6903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571993563, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571993679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571993687, "dur":5406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571999227, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543571999360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543571999377, "dur":10209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572009716, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572009804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572009810, "dur":23049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572032934, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572033010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572033018, "dur":12766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572045905, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572046137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572046143, "dur":12025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572058269, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572058369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572058379, "dur":8640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572067084, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572067155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572067161, "dur":7226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572074566, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572074757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572074770, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698543572079861, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698543572079996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572080004, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698543572088358, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698543572088453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698543572088462, "dur":5280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698543572093853, "dur":4636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571943754, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571943945, "dur":8104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571952065, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1698543571952606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571956112, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1698543571960513, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571960739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571961474, "dur":7835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571969420, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571969532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571969550, "dur":10756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571980493, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571980706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571980721, "dur":8381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571989239, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571989456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571989479, "dur":8384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571997988, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543571998279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543571998287, "dur":11315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572009711, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572009797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572009804, "dur":27191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572037074, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572037144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572037153, "dur":8611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572045867, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572046420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572046426, "dur":11009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572057537, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572058029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572058047, "dur":8394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572066543, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572066632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572066641, "dur":7012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572073759, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572073968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572073979, "dur":5587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698543572079700, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698543572079880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572079887, "dur":7256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698543572087371, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698543572087540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698543572087548, "dur":6552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698543572094209, "dur":4279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571943793, "dur":164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571943957, "dur":8089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571952065, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1698543571952661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571956549, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1698543571960189, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698543571960514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571960919, "dur":5619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698543571966652, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571966746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571968334, "dur":8741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571977194, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571977299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571977312, "dur":7468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571984866, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571984951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571984961, "dur":8463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571993560, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571993665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571993679, "dur":5838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571999621, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543571999910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543571999930, "dur":9551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572009591, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572009702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572009708, "dur":24150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572033934, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572034001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572034009, "dur":11745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572045858, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572046186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572046193, "dur":9873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572056151, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572056388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572056400, "dur":9438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572065955, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572066101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572066112, "dur":7709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572073948, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572074437, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572074455, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698543572079745, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698543572079890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572079899, "dur":7232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698543572087317, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698543572087442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572087453, "dur":6228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698543572093845, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1698543572094010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698543572094031, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1698543572098189, "dur":310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571943827, "dur":135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571943963, "dur":8105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571952072, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698543571952605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571955682, "dur":4366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698543571960176, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698543571960482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571960928, "dur":4591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1698543571965678, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543571965793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571968497, "dur":8392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543571977044, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543571977186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571977205, "dur":8408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543571985787, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543571985913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571985959, "dur":8937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543571995005, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543571995101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543571995119, "dur":7568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572002811, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572002930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572002939, "dur":27720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572030770, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572030875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572030885, "dur":8578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572039546, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572039766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572039773, "dur":9367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572049239, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572049474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572049479, "dur":9208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572058803, "dur":9048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572067855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572067861, "dur":6413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572074389, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572074705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572074713, "dur":4060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698543572078884, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1698543572078991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572079121, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1698543572082175, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698543572082349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572082361, "dur":6988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698543572089497, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698543572089605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698543572089647, "dur":8498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698543572098229, "dur":271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543571943893, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543571943978, "dur":8080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543571952066, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1698543571952452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543571954844, "dur":5658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1698543571960653, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543571961130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543571961137, "dur":44944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572006190, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572006282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543572006293, "dur":24359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572030777, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572030904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543572030915, "dur":10478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572041472, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572042334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543572042343, "dur":10579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572053002, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572053511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543572053550, "dur":12293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572065943, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572066146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543572066152, "dur":7041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572073270, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572073352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543572073360, "dur":8132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698543572081689, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698543572081829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698543572081845, "dur":12741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698543572094681, "dur":3839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571943927, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571943928, "dur":8127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571952068, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1698543571952757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571956719, "dur":3875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1698543571960705, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023.exe" }}
+,{ "pid":12345, "tid":10, "ts":1698543571960807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571960812, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023.exe" }}
+,{ "pid":12345, "tid":10, "ts":1698543571963163, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571963242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571965198, "dur":9531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571974887, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571975026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571975050, "dur":6596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571981751, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571981848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571981862, "dur":10004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571992004, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571992143, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571992163, "dur":5520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571997828, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543571997963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543571997981, "dur":8342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572006400, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572006472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572006510, "dur":25381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572032003, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572032135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572032142, "dur":9331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572041584, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572041717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572041726, "dur":9872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572051684, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572051881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572051889, "dur":7802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572059820, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572060043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572060052, "dur":11446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572071617, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572071788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572071799, "dur":5329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572077254, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572077396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572079132, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698543572083121, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1698543572083911, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572083982, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1698543572088319, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1698543572088438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698543572088460, "dur":5410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1698543572094009, "dur":4481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571943990, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571943991, "dur":8085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571952077, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1698543571952535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571955058, "dur":5267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1698543571960438, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698543571960649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571960655, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698543571963373, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571963456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571965212, "dur":9840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571975163, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571975554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571975573, "dur":7810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571983494, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571983603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571983623, "dur":8454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571992225, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571992341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571992350, "dur":5322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571997824, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543571998009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543571998021, "dur":11135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572009302, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572009426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572009436, "dur":23307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572032836, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572032915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572032923, "dur":12850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572045894, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572046099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572046107, "dur":10098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572056318, "dur":1840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572058162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572058169, "dur":8828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572067078, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572067227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572067232, "dur":7457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572074778, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572075454, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572075483, "dur":4886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698543572080512, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698543572080649, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572080680, "dur":7651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698543572088434, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698543572088562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572088571, "dur":5151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698543572093849, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1698543572094325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698543572094340, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1698543572098454, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1698543572098456, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571944053, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571944054, "dur":7994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571952064, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1698543571952378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571955320, "dur":4716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1698543571960163, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1698543571960432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571961489, "dur":5235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1698543571966844, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543571966969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571968811, "dur":9368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543571978376, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543571978529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571978548, "dur":7796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543571986492, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543571986599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571986606, "dur":8749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543571995456, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543571995565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543571995573, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572001851, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572002015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572002035, "dur":24908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572027038, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572027118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572027126, "dur":12396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572039600, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572040064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572040071, "dur":9007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572049170, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572049407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572049416, "dur":9478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572058972, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572059344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572059355, "dur":11416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572070885, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572071006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572071023, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572074554, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572074689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572074703, "dur":4910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698543572079733, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1698543572079865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572079874, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1698543572083385, "dur":1305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1698543572084702, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572084771, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1698543572089430, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1698543572089544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698543572089559, "dur":5624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bmorn/Desktop/Karting Microgame GitHub/KartingFall2023_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1698543572095264, "dur":3248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698543572118254, "dur":2679, "ph":"X", "name": "ProfilerWriteOutput" }
+,
